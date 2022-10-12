@@ -1,0 +1,39 @@
+
+.cart-item{
+    padding: 10px 20px;
+    border: 5px solid azure;
+    background-color: rgb(243, 231, 231);
+    border-radius: 12px;
+}
+.cart-item img{
+    width: 115px;
+}
+.rmv{
+    width: 5% !important;
+}
+
+.cart{
+    width: 900px;
+    height: 100%;
+    margin: 80px auto;
+    
+    
+    
+}
+
+.left-side{
+    display: flex;
+    text-align: center;
+}
+
+.btn{
+    margin: 0 8px;
+    text-decoration: none;
+    
+}
+.text-field{
+    width: 10%;
+    text-align: center;
+    border-radius: 8px;
+    border-color: white;
+}
