@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,33 +10,70 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
 </head>
-<body>
-   <div class="container">
-    <div class="cart">
-        <div class="col-lg-12 col-md-10">
-            <div class="cart-item">
-                <div class="row">
-                    <div class="col-md-7 d-flex center-item left-side justify-content-start align-items-center">
-                    <img src="images/product-1.png" alt="">
-                    <h5>iPhone 11 128GB Black</h5>
 
-        
+<body>
+    <div class="container">
+        <div class="cart">
+            <div class="col-lg-12 col-md-8 col-6">
+                <div class="cart-item">
+                    <div class="row">
+                        <div class="col-7 d-flex center-item left-side justify-content-start align-items-center">
+                            <img src="images/product-1.png" alt="">
+                            <h5>iPhone 11 128GB Black</h5>
+
+
+                        </div>
+                        <div class="col-5 d-flex right-side justify-content-center align-items-center">
+                            <button id="minus-button1" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="cart-field1" class="text-field" type="text" value="1">
+                            <button id="plus-button1"  class="btn btn-default"><i class="fas fa-plus"></i></button>
+                            <h4>$ <span id="price1">59</span></h4>
+                            <img class="rmv" src="images/remove.png" alt="">
+
+
+                        </div>
                     </div>
-                    <div class="col-md-5 d-flex right-side justify-content-center align-items-center">
-                        <button class="btn btn-default"><i class="fas fa-minus"></i></button> 
-                        <input class="text-field" type="text" value="1">
-                        <button class="btn btn-default"><i class="fas fa-plus"></i></button>
-                        <img class="rmv" src="images/remove.png" alt="">
-                        
+                </div>
+                <div class="cart-item">
+                    <div class="row">
+                        <div class="col-7 d-flex center-item left-side justify-content-start align-items-center">
+                            <img src="images/product-2.png" alt="">
+                            <h5>iPhone 11 Silicone Case - Black</h5>
+
+
+                        </div>
+                        <div class="col-5 d-flex right-side justify-content-center align-items-center">
+                            <button id="minus-button2" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                            <input id="cart-field2" class="text-field" type="text" value="1">
+                            <button id="plus-button2" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                            <h4>$ <span  id="price2">180</span></h4>
+                            <img class="rmv" src="images/remove.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="calculate-section">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>Subtotal:</h4>
+                            <h4>Tax:</h4>
+                            <h4>Total:</h4>
+
+                        </div>
+                        <div class="col-6 cal-right ">
+                            <h3>$ <span>0</span> </h3>
+                            <h3>$ <span>0</span> </h3>
+                            <h3>$ <span>0</span> </h3>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
-   </div>
-    
+
 
     <script src="working.js"></script>
 </body>
+
 </html>
